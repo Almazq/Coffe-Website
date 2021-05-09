@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px; 
+	font-size: 19px;
+	font-family: Brush Script MT,Calibri;
+	color: #000;
+	margin-top: -1px;
+	padding-top: 10px;
+	opacity: 0.9;
+	border-radius: 3px 3px;
+}
+.menu_a{
+	color: #000;
+	margin-top: 2px;
+
+}
+#menu li:hover{
+	cursor: pointer;
+	opacity: 1;
+	background: #fff;
+
+}
+#menu{
+	z-index: 1000;
+	width: 100%;
+	height: 65px;
+	border: 1px solid #000;
+	background-color:#e5e4f3;
+	opacity: 0.9;
+}
+#img{
+	width: 55px;
+	margin-top: -8px;
+	padding: 0px;
+	opacity: 0.9;
+	padding-left: 20px;
+}
+#img:hover{
+	width: 56px;
+}
+#one{
+	margin-left: 33%;
+}
+.content{
+	margin-top:5px;
+}
+#gif{
+	width: 250px;
+	height: 250px;
+	border-radius: 100px;
+	display: none;
+}
+body{
+	background: #000;
+}
+.display{
+	margin-left: 40%;
+	margin-top: 10%;
+}
+#btn{
+	cursor: pointer;
+	border-radius: 5px;
+	border:1px solid #fff;
+	margin-top: 20%;
+	width: 250px;
+	height: 25px;
+	background: red;
+	color: #fff;
+}
+.num{
+	display: none;
+	color: #90ff3b;
+	margin-top: 20%;
+	font-size: 22px;
+	font-family: Brush Script MT;
+	text-align: center;
+}
+#cost{
+	width: 100%;
+	height: 620px;
+	margin-top: 10%;
+	display: none;
+}
+#child{
+	width: 29%;
+	height: 600px;
+	background: #e8e8e89e;
+	box-shadow: 2px 1px 9px #f8fff6;
+	border-radius: 4px;
+	margin-left: 4%;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+.img_child{
+	width: 70%;
+	height: 220px;
+	border-radius: 5px;
+	margin:10%;
+	margin-left: 15%;
+}
+a{
+	text-decoration: none;
+}
+.artical_child{
+	text-align: center;
+	font-size: 22px;
+	font-family:Goodfish,Calibri;
+	color: #902d2d;;
+}
+.text_child{
+	text-align: center;
+	font-family: Adobe Arabic;
+	font-size: 19px; 
+	color: #6a00ad;
+	box-shadow: 1px 1px 10px #bb5050;
+
+}
+.price{
+	text-align: center;
+	font-size: 22px;
+	font-family: Arabella,Brush Script MT;
+	color: #902d2d;
+}
+.dollars{
+	text-align: center;
+	font-size: 23px;
+	font-family:Goodfish;
+	color: #11a74d;;
+	
+}
+.dollars:hover{
+	transition: 0.3s;
+	font-size: 28px;
+	font-family: Brush Script MT;
+
+}
+#adulst{
+	width: 29%;
+	height: 600px;
+	background: #e8e8e89e;
+	box-shadow: 2px 1px 9px #cea1dc;
+	border-radius: 4px;
+	margin-left: 2%;
+	display: inline-block;
+}
+#trainer{
+	width: 29%;
+	height: 600px;
+	background: #e8e8e89e;
+	box-shadow: 2px 1px 9px #cea1dc;
+	border-radius: 4px;
+	margin-left: 2%;
+	display: inline-block;
+}
+.mon{
+	text-align: center;
+	font-size: 20px;
+}
